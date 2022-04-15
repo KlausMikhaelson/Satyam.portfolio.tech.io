@@ -239,10 +239,22 @@ img{
 }
 #HackCwru_img {
     box-shadow: var(--bs);
+    transition: transform 800ms ease-in-out; 
+
 }
+
+#HackCwru_img:hover {
+    transform: scale(1.1);
+}
+
 #DiamondHacks_img {
     box-shadow: var(--bs);
     padding: 25px;
+    transition: transform 800ms ease-in-out; 
+
+}
+#DiamondHacks_img:hover {
+    transform: scale(1.1);
 }
 
 @media (max-width: 600px) {
