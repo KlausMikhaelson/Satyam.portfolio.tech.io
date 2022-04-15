@@ -242,7 +242,7 @@ img{
 }
 #DiamondHacks_img {
     box-shadow: var(--bs);
-    padding: 50px;
+    padding: 25px;
 }
 
 @media (max-width: 600px) {
