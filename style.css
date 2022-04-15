@@ -232,3 +232,22 @@ img{
     margin: 0.5rem;
     padding: 0.5em;
 }
+
+#Other_achievements {
+    display: flex;
+    column-gap: 10%;
+}
+#HackCwru_img {
+    box-shadow: var(--bs);
+}
+#DiamondHacks_img {
+    box-shadow: var(--bs);
+    padding: 50px;
+}
+
+@media (max-width: 600px) {
+    #Other_achievements {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
