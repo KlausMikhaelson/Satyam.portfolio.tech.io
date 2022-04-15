@@ -234,8 +234,11 @@ img{
 }
 
 #Other_achievements {
-    display: flex;
+    display: grid;
+    grid-template-columns: 535px 438px;
+    justify-content: space-evenly;
     column-gap: 10%;
+
 }
 #HackCwru_img {
     box-shadow: var(--bs);
